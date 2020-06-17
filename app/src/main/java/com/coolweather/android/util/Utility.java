@@ -52,6 +52,7 @@ public class Utility {
         return false;
     }
 
+
     public static boolean handleCountyResponse(String response,int cityId){
         if (!TextUtils.isEmpty(response)){
             try {
